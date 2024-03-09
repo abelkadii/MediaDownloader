@@ -1,0 +1,30 @@
+{
+    "paths": {
+        "tmp": "@/.tmp/",
+        "downloads": "@/downloads/"
+
+    },
+    "controller": {
+        "sites": {
+            "fmoviesz":{
+                "resolutions": {
+                    "1080p": [1923, 432],
+                    "720p": [1923, 432],
+                    "480p": [1923, 432]
+                }
+            }
+        },
+        "applications": {
+            "idman": {
+                "start_button": [10, 10],
+                "later_button": [10, 10],
+                "exe": "C:\\Program Files (x86)\\Internet Download Manager\\idman.exe"
+            },
+            "chrome": {
+                "exe": "chrome",
+                "close": [1010, 1201]
+            }
+        }
+            
+    }
+}
