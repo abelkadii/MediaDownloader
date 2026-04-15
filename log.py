@@ -11,7 +11,7 @@ def setup_logging():
 
     # Create a file handler and set its level
     # file_handler = logging.FileHandler('app.log')
-    # file_handler.setLevel(logging.log)  # Set the desired level for file output
+    # file_handler.setLevel(logging.INFO)  # Set the desired level for file output
 
     # Create a formatter and set its format
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
